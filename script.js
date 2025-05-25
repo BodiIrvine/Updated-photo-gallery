@@ -3,7 +3,7 @@ document.getElementById('year').textContent = new Date().getFullYear();
 
 // Album data with placeholder images
 const albums = {
-    'Disney Wonder (March, 2025)': {
+   'Disney Wonder (March, 2025)': {
         metadata: {
             timeOfYear: 'March 16-21, 2025',
             destination: 'Catalina, Mexico',
@@ -14,11 +14,11 @@ const albums = {
             { 
                 src: 'images/family(4).jpeg', 
                 thumb: 'images/family(4).jpeg', 
-                caption: 'Depart', 
+                caption: 'Departure', 
                 tags: ['Family Photo', 'cruise'] 
             },
             
-            // Horazontal Micky Mouse
+            // Horizontal Mickey Mouse
             { 
                 src: 'images/char(20).jpeg', 
                 thumb: 'images/char(20).jpeg', 
@@ -32,7 +32,7 @@ const albums = {
                 tags: ['character', 'Mickey Mouse Clubhouse', 'Family Photo', 'cruise'] 
             },
             
-            // Horazontal Minnni Mouse
+            // Horizontal Minnie Mouse
             { 
                 src: 'images/char(1).jpg', 
                 thumb: 'images/char(1).jpg', 
@@ -70,7 +70,7 @@ const albums = {
                 tags: ['character', 'Mickey Mouse Clubhouse', 'Family Photo', 'cruise'] 
             },
             
-            // Horazontal Goffy
+            // Horizontal Goofy
             { 
                 src: 'images/char(2).jpeg', 
                 thumb: 'images/char(2).jpeg', 
@@ -90,7 +90,7 @@ const albums = {
                 tags: ['character', 'Mickey Mouse Clubhouse', 'Family Photo', 'cruise'] 
             },
             
-            // Horazontal Donold Duck
+            // Horizontal Donald Duck
             { 
                 src: 'images/char(2).jpg', 
                 thumb: 'images/char(2).jpg', 
@@ -110,7 +110,7 @@ const albums = {
                 tags: ['character', 'Mickey Mouse Clubhouse', 'cruise'] 
             },
             
-            // Horazontal Daisy Duck
+            // Horizontal Daisy Duck
             { 
                 src: 'images/char(9).jpg', 
                 thumb: 'images/char(9).jpg', 
@@ -118,7 +118,7 @@ const albums = {
                 tags: ['character', 'Mickey Mouse Clubhouse', 'cruise'] 
             },
             
-            // Horazontal Chip and Dale 
+            // Horizontal Chip and Dale 
             { 
                 src: 'images/char(13).jpeg', 
                 thumb: 'images/char(13).jpeg', 
@@ -132,7 +132,7 @@ const albums = {
                 tags: ['character', 'Mickey Mouse Clubhouse', 'Family Photo', 'cruise'] 
             },
             
-            // Horazontal Tiana
+            // Horizontal Tiana
             { 
                 src: 'images/char(23).jpeg',
                 thumb: 'images/char(23).jpeg', 
@@ -146,7 +146,7 @@ const albums = {
                 tags: ['character', 'Disney Princesses', 'cruise'] 
             },
             
-            // Horazontal Ariel
+            // Horizontal Ariel
             { 
                 src: 'images/char(9).jpeg', 
                 thumb: 'images/char(9).jpeg', 
@@ -154,57 +154,57 @@ const albums = {
                 tags: ['character', 'Disney Princesses', 'cruise'] 
             },
             
-            // Horazontal Belle
+            // Horizontal Belle
             { 
                 src: 'images/char(10).jpeg', 
                 thumb: 'images/char(10).jpeg', 
-                caption: ' Belle small family photo', 
+                caption: 'Belle small family photo', 
                 tags: ['character', 'Disney Princesses', 'cruise'] 
             },
             { 
                 src: 'images/char(11).jpeg', 
                 thumb: 'images/char(11).jpeg', 
-                caption: ' Belle small family photo', 
+                caption: 'Belle small family photo', 
                 tags: ['character', 'Disney Princesses', 'cruise'] 
             },
             
-            /// Black Panther
+            // Black Panther
             { 
                 src: 'images/char(31).jpeg', 
                 thumb: 'images/char(31).jpeg', 
                 caption: 'Black Panther small family photo', 
-                tags: ['character', 'Marvel Superheroes', 'cruise'] 
+                tags: ['character', 'Marvel Fisheries', 'cruise'] 
             },
             
-            /// Horazontal Family
+            // Horizontal Family
             { 
                 src: 'images/family(2).jpeg', 
                 thumb: 'images/family(2).jpeg', 
-                caption: 'Big family photo at the "Sail-a-wave Party"', 
+                caption: 'Big family photo at the "Sail-A-Wave Party"', 
                 tags: ['Family Photo', 'cruise'] 
             },
             { 
                 src: 'images/family(5).jpeg', 
                 thumb: 'images/family(5).jpeg', 
-                caption: 'Big family photo before we boarded the Disney Wonder', 
+                caption: 'Big family photo before boarding the Disney Wonder', 
                 tags: ['Family Photo', 'cruise'] 
             },
             { 
                 src: 'images/family.jpeg', 
                 thumb: 'images/family.jpeg', 
-                caption: 'Small family photo at the "Sail-a-wave Party"', 
+                caption: 'Small family photo at the "Sail-A-Wave Party"', 
                 tags: ['Family Photo', 'cruise'] 
             },
             { 
                 src: 'images/family(1).jpeg', 
                 thumb: 'images/family(1).jpeg', 
-                caption: 'Small family photo at the "Sail-a-wave Party"', 
+                caption: 'Small family photo at the "Sail-A-Wave Party"', 
                 tags: ['Family Photo', 'cruise'] 
             },
             { 
                 src: 'images/family(3).jpeg', 
                 thumb: 'images/family(3).jpeg', 
-                caption: 'Small family photo at the "Sail-a-wave Party"', 
+                caption: 'Small family photo at the "Sail-A-Wave Party"', 
                 tags: ['Family Photo', 'cruise'] 
             },
             { 
@@ -216,25 +216,25 @@ const albums = {
             { 
                 src: 'images/family(5).jpg', 
                 thumb: 'images/family(5).jpg', 
-                caption: 'Small family photo at the Walt Disney Theater', 
+                caption: 'Small family photo at the Walt Disney Theatre', 
                 tags: ['cruise'] 
             },
             { 
                 src: 'images/family(6).jpeg', 
                 thumb: 'images/family(6).jpeg', 
-                caption: 'Small family photo at dinner (Tritons)', 
+                caption: 'Small family photo at dinner (Triton's)', 
                 tags: ['Dinner', 'cruise'] 
             },
             { 
                 src: 'images/family(9).jpeg', 
                 thumb: 'images/family(9).jpeg', 
-                caption: 'Big family photo at dinner (Animators Palate)', 
+                caption: 'Big family photo at dinner (Animator's Palate)', 
                 tags: ['Dinner', 'cruise'] 
             },
             { 
                 src: 'images/family(7).jpeg', 
                 thumb: 'images/family(7).jpeg', 
-                caption: 'Small family photo at dinner (Animators Palate)', 
+                caption: 'Small family photo at dinner (Animator's Palate)', 
                 tags: ['Dinner', 'cruise'] 
             },
             { 
@@ -258,11 +258,11 @@ const albums = {
             { 
                 src: 'images/staff.jpeg', 
                 thumb: 'images/staff.jpeg', 
-                caption: 'Big family at Animators Palate', 
+                caption: 'Big family photo at Animator's Palate', 
                 tags: ['Staff', 'Dinner', 'Family Photo', 'cruise'] 
             },
             
-            // Horazontal Mexico 
+            // Horizontal Mexico 
             { 
                 src: 'images/mexico(3).jpg', 
                 thumb: 'images/mexico(3).jpg', 
@@ -270,7 +270,7 @@ const albums = {
                 tags: ['Mexico', 'cruise'] 
             },
             
-            // Horazontal Solo
+            // Horizontal Solo
             { 
                 src: 'images/family(8).jpg', 
                 thumb: 'images/family(8).jpg', 
@@ -290,11 +290,11 @@ const albums = {
                 tags: ['Solo', 'cruise'] 
             },
             
-            // Horazontal Ship
+            // Horizontal Ship
             { 
                 src: 'images/room.jpg', 
                 thumb: 'images/room.jpg', 
-                caption: 'Disney Wonder Room (March, 2024)', 
+                caption: 'Disney Wonder room (March 2025)', 
                 tags: ['Room', 'cruise'] 
             },
             { 
@@ -306,11 +306,11 @@ const albums = {
             { 
                 src: 'images/ship(3).jpg', 
                 thumb: 'images/ship(3).jpg', 
-                caption: 'Disney Wonder Walt Disney Theater', 
+                caption: 'Disney Wonder Walt Disney Theatre', 
                 tags: ['Ship', 'cruise'] 
             },
             
-            // Horazontal Staff
+            // Horizontal Staff
             { 
                 src: 'images/staff(3).jpg', 
                 thumb: 'images/staff(3).jpg', 
@@ -324,7 +324,7 @@ const albums = {
                 tags: ['Staff', 'cruise'] 
             },
             
-            // Micky Mouse
+            // Mickey Mouse
             { 
                 src: 'images/char.jpg', 
                 thumb: 'images/char.jpg', 
@@ -332,7 +332,7 @@ const albums = {
                 tags: ['character', 'Mickey Mouse Clubhouse', 'cruise'] 
             },
             
-            // Minny Mouse
+            // Minnie Mouse
             { 
                 src: 'images/char(5).jpeg', 
                 thumb: 'images/char(5).jpeg', 
@@ -342,7 +342,7 @@ const albums = {
             { 
                 src: 'images/char(5).jpg', 
                 thumb: 'images/char(5).jpg', 
-                caption: 'Minnie small family photo', 
+                caption: 'Minnie Mouse small family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'cruise'] 
             },
             { 
@@ -376,7 +376,7 @@ const albums = {
                 tags: ['character', 'Mickey Mouse Clubhouse', 'cruise'] 
             },
             
-            // Goffy
+            // Goofy
             { 
                 src: 'images/char(1).jpeg', 
                 thumb: 'images/char(1).jpeg', 
@@ -390,7 +390,7 @@ const albums = {
                 tags: ['character', 'Mickey Mouse Clubhouse', 'cruise'] 
             },
             
-            // Donold Duck
+            // Donald Duck
             { 
                 src: 'images/char(3).jpg', 
                 thumb: 'images/char(3).jpg', 
@@ -452,7 +452,7 @@ const albums = {
             { 
                 src: 'images/char(22).jpeg', 
                 thumb: 'images/char(22).jpeg', 
-                caption: 'Spider Man small family photo', 
+                caption: 'Spider-Man small family photo', 
                 tags: ['character', 'Marvel Superheroes', 'cruise'] 
             },
             
@@ -472,7 +472,7 @@ const albums = {
             { 
                 src: 'images/family(8).jpeg', 
                 thumb: 'images/family(8).jpeg', 
-                caption: 'Small family photo at dinner (Animators Palate)', 
+                caption: 'Small family photo at dinner (Animator's Palate)', 
                 tags: ['Dinner', 'cruise'] 
             },
             { 
@@ -516,7 +516,7 @@ const albums = {
                 tags: ['Catalina', 'cruise'] 
             },
             
-            // Travaling fun
+            //Traveling fun
             { 
                 src: 'images/family.jpg', 
                 thumb: 'images/family.jpg', 
@@ -526,13 +526,13 @@ const albums = {
             
             // Food
             { 
-                src: 'images/food(1).jpg', 
+                src: 'images/food(1) .jpg', 
                 thumb: 'images/food(1).jpg', 
                 caption: 'An Olaf coffee', 
                 tags: ['Food', 'cruise'] 
             },
             { 
-                src: 'images/food(2).jpg', 
+                src: 'images/food(2) .jpg', 
                 thumb: 'images/food(2).jpg', 
                 caption: 'A Mickey coffee', 
                 tags: ['Food', 'cruise'] 
@@ -544,7 +544,7 @@ const albums = {
                 tags: ['Food', 'cruise'] 
             },
             { 
-                src: 'images/food(5).jpg', 
+                src: 'images/food(5) .jpg', 
                 thumb: 'images/food(5).jpg', 
                 caption: 'Chocolate sundae', 
                 tags: ['Food', 'cruise'] 
@@ -558,7 +558,7 @@ const albums = {
                 tags: ['Ship', 'cruise'] 
             },
             { 
-                src: 'images/ship(1).jpg', 
+                src: 'images/ship(1) .jpg', 
                 thumb: 'images/ship(1).jpg', 
                 caption: 'Disney Wonder', 
                 tags: ['Ship', 'cruise'] 
@@ -572,15 +572,15 @@ const albums = {
                 tags: ['Staff', 'cruise'] 
             },
             { 
-                src: 'images/staff(5).jpg', 
+                src: 'images/staff(5) .jpg', 
                 thumb: 'images/staff(5).jpg', 
-                caption: 'Camera man', 
+                caption: 'Cameraman', 
                 tags: ['Staff', 'cruise'] 
             },
             { 
                 src: 'images/staff(6).jpg', 
                 thumb: 'images/staff(6).jpg', 
-                caption: 'Bad timing', 
+                caption: 'Pin Trading', 
                 tags: ['Staff', 'cruise'] 
             }
         ]
