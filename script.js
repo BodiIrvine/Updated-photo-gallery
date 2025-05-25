@@ -1,18 +1,13 @@
-const isDebug = false; // Set to true for debugging
-function log(...args) {
-    if (isDebug) console.log(...args);
-}
-
 // Set dynamic footer year
 document.getElementById('year').textContent = new Date().getFullYear();
 
-// Album data with corrected images and tags
+// Album data with placeholder images
 const albums = {
-    'Disney Wonder (March, 2025)': {
+    'Disney Magic (March, 2025)': {
         metadata: {
-            timeOfYear: 'March 16-21, 2025',
+            timeOfYear: 'March 2025',
             destination: 'Catalina, Mexico',
-            type: 'Disney Wonder Cruise',
+            type: 'Family Disney Magic Cruise',
             description: 'A magical cruise adventure with Disney characters and family fun.'
         },
         photos: [
@@ -22,7 +17,6 @@ const albums = {
                 caption: 'Depart', 
                 tags: ['Family Photo', 'cruise'] 
             },
-            
             // Horazontal Micky Mouse
             { 
                 src: 'images/char(20).jpeg', 
@@ -36,7 +30,6 @@ const albums = {
                 caption: 'Mickey Mouse big family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'Family Photo', 'cruise'] 
             },
-            
             // Horazontal Minnni Mouse
             { 
                 src: 'images/char(1).jpg', 
@@ -74,7 +67,6 @@ const albums = {
                 caption: 'Minnie Mouse small family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'Family Photo', 'cruise'] 
             },
-            
             // Horazontal Goffy
             { 
                 src: 'images/char(2).jpeg', 
@@ -94,7 +86,6 @@ const albums = {
                 caption: 'Goofy big family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'Family Photo', 'cruise'] 
             },
-            
             // Horazontal Donold Duck
             { 
                 src: 'images/char(2).jpg', 
@@ -114,7 +105,6 @@ const albums = {
                 caption: 'Donald Duck small family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'cruise'] 
             },
-            
             // Horazontal Daisy Duck
             { 
                 src: 'images/char(9).jpg', 
@@ -122,7 +112,6 @@ const albums = {
                 caption: 'Daisy Duck small family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'cruise'] 
             },
-            
             // Horazontal Chip and Dale 
             { 
                 src: 'images/char(13).jpeg', 
@@ -136,7 +125,6 @@ const albums = {
                 caption: 'Chip and Dale big family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'Family Photo', 'cruise'] 
             },
-            
             // Horazontal Tiana
             { 
                 src: 'images/char(23).jpeg',
@@ -150,7 +138,6 @@ const albums = {
                 caption: 'Tiana small family photo', 
                 tags: ['character', 'Disney Princesses', 'cruise'] 
             },
-            
             // Horazontal Ariel
             { 
                 src: 'images/char(9).jpeg', 
@@ -158,7 +145,6 @@ const albums = {
                 caption: 'Ariel small family photo', 
                 tags: ['character', 'Disney Princesses', 'cruise'] 
             },
-            
             // Horazontal Belle
             { 
                 src: 'images/char(10).jpeg', 
@@ -172,7 +158,6 @@ const albums = {
                 caption: ' Belle small family photo', 
                 tags: ['character', 'Disney Princesses', 'cruise'] 
             },
-            
             /// Black Panther
             { 
                 src: 'images/char(31).jpeg', 
@@ -180,7 +165,6 @@ const albums = {
                 caption: 'Black Panther small family photo', 
                 tags: ['character', 'Marvel Superheroes', 'cruise'] 
             },
-            
             /// Horazontal Family
             { 
                 src: 'images/family(2).jpeg', 
@@ -266,7 +250,6 @@ const albums = {
                 caption: 'Big family at Animators Palate', 
                 tags: ['Staff', 'Dinner', 'Family Photo', 'cruise'] 
             },
-            
             // Horazontal Mexico 
             { 
                 src: 'images/mexico(3).jpg', 
@@ -274,7 +257,6 @@ const albums = {
                 caption: 'Ensenada', 
                 tags: ['Mexico', 'cruise'] 
             },
-            
             // Horazontal Solo
             { 
                 src: 'images/family(8).jpg', 
@@ -294,7 +276,6 @@ const albums = {
                 caption: 'Dramatic photo', 
                 tags: ['Solo', 'cruise'] 
             },
-            
             // Horazontal Ship
             { 
                 src: 'images/room.jpg', 
@@ -314,7 +295,6 @@ const albums = {
                 caption: 'Disney Wonder Walt Disney Theater', 
                 tags: ['Ship', 'cruise'] 
             },
-            
             // Horazontal Staff
             { 
                 src: 'images/staff(3).jpg', 
@@ -328,7 +308,6 @@ const albums = {
                 caption: 'Concierge Lounge', 
                 tags: ['Staff', 'cruise'] 
             },
-            
             // Micky Mouse
             { 
                 src: 'images/char.jpg', 
@@ -336,7 +315,6 @@ const albums = {
                 caption: 'Mickey Mouse on the stairs', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'cruise'] 
             },
-            
             // Minny Mouse
             { 
                 src: 'images/char(5).jpeg', 
@@ -380,7 +358,6 @@ const albums = {
                 caption: 'Minnie Mouse small family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'cruise'] 
             },
-            
             // Goffy
             { 
                 src: 'images/char(1).jpeg', 
@@ -394,7 +371,6 @@ const albums = {
                 caption: 'Goofy big family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'cruise'] 
             },
-            
             // Donold Duck
             { 
                 src: 'images/char(3).jpg', 
@@ -408,7 +384,6 @@ const albums = {
                 caption: 'Donald Duck small family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'cruise'] 
             },
-            
             // Daisy Duck
             { 
                 src: 'images/char(10).jpg', 
@@ -428,7 +403,6 @@ const albums = {
                 caption: 'Daisy Duck small family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'cruise'] 
             },
-            
             // Tiana
             { 
                 src: 'images/char(4).jpg', 
@@ -436,7 +410,6 @@ const albums = {
                 caption: 'Tiana walking down the stairs', 
                 tags: ['character', 'Disney Princesses', 'cruise'] 
             },
-            
             // Cinderella
             { 
                 src: 'images/char(15).jpeg', 
@@ -444,7 +417,6 @@ const albums = {
                 caption: 'Cinderella small family photo', 
                 tags: ['character', 'Disney Princesses', 'cruise'] 
             },
-            
             // Black Panther
             { 
                 src: 'images/char(12).jpeg', 
@@ -452,7 +424,6 @@ const albums = {
                 caption: 'Black Panther small family photo', 
                 tags: ['character', 'Marvel Superheroes', 'cruise'] 
             },
-            
             // Spider-Man
             { 
                 src: 'images/char(22).jpeg', 
@@ -460,7 +431,6 @@ const albums = {
                 caption: 'Spider Man small family photo', 
                 tags: ['character', 'Marvel Superheroes', 'cruise'] 
             },
-            
             // Family
             { 
                 src: 'images/char(25).jpeg', 
@@ -504,7 +474,6 @@ const albums = {
                 caption: 'Small family photo on the ship', 
                 tags: ['cruise'] 
             },
-            
             // Mexico
             { 
                 src: 'images/mexico(4).jpg', 
@@ -512,7 +481,6 @@ const albums = {
                 caption: 'Port of Ensenada', 
                 tags: ['Mexico', 'cruise'] 
             },
-            
             // Catalina
             { 
                 src: 'images/mexico(2).jpg', 
@@ -520,24 +488,22 @@ const albums = {
                 caption: 'Catalina Island', 
                 tags: ['Catalina', 'cruise'] 
             },
-            
-            //Traveling fun
+            // Travaling fun
             { 
                 src: 'images/family.jpg', 
                 thumb: 'images/family.jpg', 
                 caption: 'Family walking to the car with our suitcases', 
                 tags: ['Travel Fun', 'cruise'] 
             },
-            
             // Food
             { 
-                src: 'images/food(1) .jpg', 
+                src: 'images/food(1).jpg', 
                 thumb: 'images/food(1).jpg', 
                 caption: 'An Olaf coffee', 
                 tags: ['Food', 'cruise'] 
             },
             { 
-                src: 'images/food(2) .jpg', 
+                src: 'images/food(2).jpg', 
                 thumb: 'images/food(2).jpg', 
                 caption: 'A Mickey coffee', 
                 tags: ['Food', 'cruise'] 
@@ -554,7 +520,6 @@ const albums = {
                 caption: 'Chocolate sundae', 
                 tags: ['Food', 'cruise'] 
             },
-            
             // Ship
             { 
                 src: 'images/ship.jpg', 
@@ -568,7 +533,6 @@ const albums = {
                 caption: 'Disney Wonder', 
                 tags: ['Ship', 'cruise'] 
             },
-            
             // Staff
             { 
                 src: 'images/staff(4).jpg', 
@@ -585,20 +549,18 @@ const albums = {
             { 
                 src: 'images/staff(6).jpg', 
                 thumb: 'images/staff(6).jpg', 
-                caption: 'Pin Tradeing', 
+                caption: 'Bad timing', 
                 tags: ['Staff', 'cruise'] 
             }
         ]
     }
 };
 
-// Keep track of state
+// Keep track of selected tags, lightbox state, and current album
 let selectedTags = [];
 let currentPhotos = [];
 let currentIndex = 0;
 let currentAlbumId = null;
-const photosPerPage = 12;
-let currentPage = 1;
 
 // Page navigation
 const navLinks = document.querySelectorAll('.nav-link');
@@ -651,8 +613,7 @@ function showGallery(albumId) {
     currentAlbumId = albumId;
     if (!albums[albumId]) {
         const gallery = document.getElementById('photo-gallery');
-        gallery.innerHTML = '<p>Sorry, this album was not found. Please select another album.</p>';
-        currentAlbumId = null;
+        gallery.innerHTML = '<p>Sorry, this album was not found.</p>';
         switchPage('gallery');
         return;
     }
@@ -660,7 +621,7 @@ function showGallery(albumId) {
     const galleryTitle = document.getElementById('gallery-title');
     galleryTitle.textContent = albumId.charAt(0).toUpperCase() + albumId.slice(1) + ' Album';
     const gallery = document.getElementById('photo-gallery');
-    gallery.innerHTML = '<div class="spinner">Loading...</div>';
+    gallery.innerHTML = '<p>Loading...</p>';
 
     // Populate album info
     const albumInfo = document.getElementById('album-info');
@@ -692,8 +653,7 @@ function showGallery(albumId) {
         tagFilters.appendChild(button);
     });
 
-    // Reset pagination
-    currentPage = 1;
+    // Render gallery
     renderGallery(albumId);
 }
 
@@ -705,7 +665,6 @@ function toggleTagFilter(tag, albumId) {
         selectedTags.push(tag);
     }
     updateTagButtonStyles();
-    currentPage = 1; // Reset to first page on filter change
     renderGallery(albumId);
 }
 
@@ -713,11 +672,10 @@ function toggleTagFilter(tag, albumId) {
 function clearFilters(albumId) {
     selectedTags = [];
     updateTagButtonStyles();
-    currentPage = 1;
     renderGallery(albumId);
 }
 
-// Update tag button styles
+// Update tag button styles based on selection
 function updateTagButtonStyles() {
     const tagButtons = document.querySelectorAll('.tag-button');
     tagButtons.forEach(button => {
@@ -729,15 +687,16 @@ function updateTagButtonStyles() {
     });
 }
 
-// Render gallery with pagination
-function renderGallery(albumId, page = currentPage) {
+// Render gallery with filtered photos
+function renderGallery(albumId) {
     const gallery = document.getElementById('photo-gallery');
-    gallery.innerHTML = '<div class="spinner">Loading...</div>';
+    gallery.innerHTML = '';
+    console.log(`Rendering gallery for album: ${albumId}`);
 
-    // Filter photos
+    // Filter photos based on selected tags
     let filteredPhotos = albums[albumId].photos.filter(photo => {
         if (!photo.src || !photo.thumb) {
-            log(`Skipping invalid photo entry:`, photo);
+            console.warn(`Skipping invalid photo entry:`, photo);
             return false;
         }
         return true;
@@ -751,17 +710,15 @@ function renderGallery(albumId, page = currentPage) {
 
     if (filteredPhotos.length === 0) {
         gallery.innerHTML = '<p>No photos match the selected tags.</p>';
+        console.log('No photos to render after filtering');
         return;
     }
 
-    // Paginate
-    const start = (page - 1) * photosPerPage;
-    const end = start + photosPerPage;
-    const paginatedPhotos = filteredPhotos.slice(start, end);
-    currentPhotos = paginatedPhotos;
-    gallery.innerHTML = '';
+    // Store photos for lightbox navigation
+    currentPhotos = filteredPhotos;
+    console.log(`Rendering ${filteredPhotos.length} photos`);
 
-    paginatedPhotos.forEach((photo, index) => {
+    filteredPhotos.forEach((photo, index) => {
         const imgContainer = document.createElement('div');
         imgContainer.className = 'gallery-image-container';
         const img = document.createElement('img');
@@ -770,32 +727,14 @@ function renderGallery(albumId, page = currentPage) {
         img.dataset.index = index;
         img.className = 'gallery-image';
         img.loading = 'lazy';
-        img.onerror = () => {
-            img.src = 'images/fallback.jpeg'; // Fallback image
-            img.alt = 'Image not found';
-        };
-        img.addEventListener('click', () => openLightbox(index));
+        img.addEventListener('click', () => {
+            console.log(`Image clicked, index: ${index}, src: ${photo.thumb}`);
+            openLightbox(index);
+        });
         imgContainer.appendChild(img);
         gallery.appendChild(imgContainer);
+        console.log(`Rendered image: ${photo.thumb}`);
     });
-
-    // Add pagination controls
-    const totalPages = Math.ceil(filteredPhotos.length / photosPerPage);
-    if (totalPages > 1) {
-        const pagination = document.createElement('div');
-        pagination.className = 'pagination';
-        for (let i = 1; i <= totalPages; i++) {
-            const btn = document.createElement('button');
-            btn.textContent = i;
-            btn.className = i === page ? 'active' : '';
-            btn.addEventListener('click', () => {
-                currentPage = i;
-                renderGallery(albumId, i);
-            });
-            pagination.appendChild(btn);
-        }
-        gallery.appendChild(pagination);
-    }
 }
 
 // Custom Lightbox Functions
@@ -811,20 +750,23 @@ function openLightbox(index) {
     updateLightbox();
     lightbox.style.display = 'flex';
     document.body.style.overflow = 'hidden';
+    console.log(`Lightbox opened at index: ${index}`);
 }
 
 function closeLightbox() {
     lightbox.style.display = 'none';
     document.body.style.overflow = 'auto';
+    console.log('Lightbox closed');
 }
 
 function updateLightbox() {
     const photo = currentPhotos[currentIndex];
     lightboxImage.src = photo.src;
-    lightboxImage.alt = photo.caption || 'Gallery image';
+    lightboxImage.alt = photo.caption;
     lightboxCaption.textContent = photo.caption;
     lightboxPrev.style.display = currentIndex > 0 ? 'block' : 'none';
     lightboxNext.style.display = currentIndex < currentPhotos.length - 1 ? 'block' : 'none';
+    console.log(`Lightbox updated: ${photo.src}`);
 }
 
 // Lightbox event listeners
