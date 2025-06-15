@@ -14,7 +14,7 @@ const albums = {
             { 
                 src: 'images/Disney Magic (March, 2025)/family(4).jpeg', 
                 thumb: 'images/Disney Magic (March, 2025)/family(4).jpeg', 
-                caption: 'Album Cover', 
+                caption: 'Depart', 
                 tags: ['Family Photo', 'cruise'] 
             },
             { 
@@ -279,7 +279,7 @@ const albums = {
                 src: 'images/Disney Magic (March, 2025)/ship(3).jpg', 
                 thumb: 'images/Disney Magic (March, 2025)/ship(3).jpg', 
                 caption: 'Disney Wonder Walt Disney Theater', 
-                tags: ['Ship, cruise'] 
+                tags: ['Ship', 'cruise'] 
             },
             { 
                 src: 'images/Disney Magic (March, 2025)/staff(3).jpg', 
@@ -549,7 +549,6 @@ const downloadModal = document.getElementById('download-modal');
 const modalClose = downloadModal.querySelector('.modal-close');
 const formatButtons = downloadModal.querySelectorAll('.format-button');
 const lightboxDownloadButton = document.getElementById('lightbox-download-button');
-const albumDownloadButton = document.getElementById('download-album-button');
 
 lightboxDownloadButton.addEventListener('click', () => {
     downloadModal.style.display = 'block';
@@ -571,14 +570,6 @@ formatButtons.forEach(button => {
         handleLightboxDownload(format);
         downloadModal.style.display = 'none';
     });
-});
-
-albumDownloadButton.addEventListener('click', () => {
-    if (!currentAlbumId) {
-        alert('No album selected.');
-        return;
-    }
-    handleAlbumDownload();
 });
 
 async function handleLightboxDownload(format) {
@@ -622,24 +613,6 @@ async function handleLightboxDownload(format) {
             alert('Failed to generate PDF. Please try again.');
         }
     }
-}
-
-function handleAlbumDownload() {
-    let photos = albums[currentAlbumId].photos;
-    if (selectedTags.length > 0) {
-        photos = photos.filter(photo => 
-            selectedTags.every(tag => photo.tags && photo.tags.includes(tag))
-        );
-    }
-
-    if (photos.length === 0) {
-        alert('No photos available for download.');
-        return;
-    }
-
-    // Placeholder for ZIP download
-    alert('ZIP download is not implemented in this demo. In a production environment, this would trigger a server-side ZIP file generation.');
-    // Example: window.location.href = '/api/download/zip?album=' + encodeURIComponent(currentAlbumId);
 }
 
 // Page navigation
