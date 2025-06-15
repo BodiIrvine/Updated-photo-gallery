@@ -12,555 +12,635 @@ const albums = {
         },
         photos: [
             { 
-                src: 'images/family(4).jpeg', 
-                thumb: 'images/family(4).jpeg', 
-                caption: 'Depart', 
+                src: 'images/Disney Magic (March, 2025)/family(4).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/family(4).jpeg', 
+                caption: 'Album Cover', 
                 tags: ['Family Photo', 'cruise'] 
             },
-            // Horazontal Micky Mouse
             { 
-                src: 'images/char(20).jpeg', 
-                thumb: 'images/char(20).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/char(20).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(20).jpeg', 
                 caption: 'Mickey Mouse big family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'Family Photo', 'cruise'] 
             },
             { 
-                src: 'images/char(21).jpeg', 
-                thumb: 'images/char(21).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/char(21).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(21).jpeg', 
                 caption: 'Mickey Mouse big family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'Family Photo', 'cruise'] 
             },
-            // Horazontal Minnni Mouse
             { 
-                src: 'images/char(1).jpg', 
-                thumb: 'images/char(1).jpg', 
+                src: 'images/Disney Magic (March, 2025)/char(1).jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(1).jpg', 
                 caption: 'Minnie Mouse big family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'Family Photo', 'cruise'] 
             },
             { 
-                src: 'images/char(3).jpeg', 
-                thumb: 'images/char(3).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/char(3).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(3).jpeg', 
                 caption: 'Minnie Mouse big family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'Family Photo', 'cruise'] 
             },
             { 
-                src: 'images/char(4).jpeg', 
-                thumb: 'images/char(4).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/char(4).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(4).jpeg', 
                 caption: 'Minnie Mouse big family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'Family Photo', 'cruise'] 
             },
             { 
-                src: 'images/char(8).jpeg', 
-                thumb: 'images/char(8).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/char(8).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(8).jpeg', 
                 caption: 'Minnie Mouse big family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'Family Photo', 'cruise'] 
             },
             { 
-                src: 'images/char(28).jpeg', 
-                thumb: 'images/char(28).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/char(28).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(28).jpeg', 
                 caption: 'Minnie Mouse small family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'Family Photo', 'cruise'] 
             },
             { 
-                src: 'images/char(30).jpeg', 
-                thumb: 'images/char(30).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/char(30).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(30).jpeg', 
                 caption: 'Minnie Mouse small family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'Family Photo', 'cruise'] 
             },
-            // Horazontal Goffy
             { 
-                src: 'images/char(2).jpeg', 
-                thumb: 'images/char(2).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/char(2).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(2).jpeg', 
                 caption: 'Goofy big family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'Family Photo', 'cruise'] 
             },
             { 
-                src: 'images/char(26).jpeg', 
-                thumb: 'images/char(26).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/char(26).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(26).jpeg', 
                 caption: 'Goofy big family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'Family Photo', 'cruise'] 
             },
             { 
-                src: 'images/char.jpeg', 
-                thumb: 'images/char.jpeg', 
+                src: 'images/Disney Magic (March, 2025)/char.jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/char.jpeg', 
                 caption: 'Goofy big family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'Family Photo', 'cruise'] 
             },
-            // Horazontal Donold Duck
             { 
-                src: 'images/char(2).jpg', 
-                thumb: 'images/char(2).jpg', 
+                src: 'images/Disney Magic (March, 2025)/char(2).jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(2).jpg', 
                 caption: 'Donald Duck small family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'cruise'] 
             },
             { 
-                src: 'images/char(16).jpeg', 
-                thumb: 'images/char(16).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/char(16).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(16).jpeg', 
                 caption: 'Donald Duck small family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'cruise'] 
             },
             { 
-                src: 'images/char(17).jpeg', 
-                thumb: 'images/char(17).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/char(17).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(17).jpeg', 
                 caption: 'Donald Duck small family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'cruise'] 
             },
-            // Horazontal Daisy Duck
             { 
-                src: 'images/char(9).jpg', 
-                thumb: 'images/char(9).jpg', 
+                src: 'images/Disney Magic (March, 2025)/char(9).jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(9).jpg', 
                 caption: 'Daisy Duck small family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'cruise'] 
             },
-            // Horazontal Chip and Dale 
             { 
-                src: 'images/char(13).jpeg', 
-                thumb: 'images/char(13).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/char(13).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(13).jpeg', 
                 caption: 'Chip and Dale big family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'Family Photo', 'cruise'] 
             },
             { 
-                src: 'images/char(14).jpeg', 
-                thumb: 'images/char(14).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/char(14).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(14).jpeg', 
                 caption: 'Chip and Dale big family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'Family Photo', 'cruise'] 
             },
-            // Horazontal Tiana
             { 
-                src: 'images/char(23).jpeg',
-                thumb: 'images/char(23).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/char(23).jpeg',
+                thumb: 'images/Disney Magic (March, 2025)/char(23).jpeg', 
                 caption: 'Tiana small family photo', 
                 tags: ['character', 'Disney Princesses', 'cruise'] 
             },
             { 
-                src: 'images/char(24).jpeg', 
-                thumb: 'images/char(24).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/char(24).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(24).jpeg', 
                 caption: 'Tiana small family photo', 
                 tags: ['character', 'Disney Princesses', 'cruise'] 
             },
-            // Horazontal Ariel
             { 
-                src: 'images/char(9).jpeg', 
-                thumb: 'images/char(9).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/char(9).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(9).jpeg', 
                 caption: 'Ariel small family photo', 
                 tags: ['character', 'Disney Princesses', 'cruise'] 
             },
-            // Horazontal Belle
             { 
-                src: 'images/char(10).jpeg', 
-                thumb: 'images/char(10).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/char(10).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(10).jpeg', 
                 caption: ' Belle small family photo', 
                 tags: ['character', 'Disney Princesses', 'cruise'] 
             },
             { 
-                src: 'images/char(11).jpeg', 
-                thumb: 'images/char(11).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/char(11).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(11).jpeg', 
                 caption: ' Belle small family photo', 
                 tags: ['character', 'Disney Princesses', 'cruise'] 
             },
-            /// Black Panther
             { 
-                src: 'images/char(31).jpeg', 
-                thumb: 'images/char(31).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/char(31).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(31).jpeg', 
                 caption: 'Black Panther small family photo', 
                 tags: ['character', 'Marvel Superheroes', 'cruise'] 
             },
-            /// Horazontal Family
             { 
-                src: 'images/family(2).jpeg', 
-                thumb: 'images/family(2).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/family(2).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/family(2).jpeg', 
                 caption: 'Big family photo at the "Sail-a-wave Party"', 
                 tags: ['Family Photo', 'cruise'] 
             },
             { 
-                src: 'images/family(5).jpeg', 
-                thumb: 'images/family(5).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/family(5).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/family(5).jpeg', 
                 caption: 'Big family photo before we boarded the Disney Wonder', 
                 tags: ['Family Photo', 'cruise'] 
             },
             { 
-                src: 'images/family.jpeg', 
-                thumb: 'images/family.jpeg', 
+                src: 'images/Disney Magic (March, 2025)/family.jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/family.jpeg', 
                 caption: 'Small family photo at the "Sail-a-wave Party"', 
                 tags: ['Family Photo', 'cruise'] 
             },
             { 
-                src: 'images/family(1).jpeg', 
-                thumb: 'images/family(1).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/family(1).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/family(1).jpeg', 
                 caption: 'Small family photo at the "Sail-a-wave Party"', 
                 tags: ['Family Photo', 'cruise'] 
             },
             { 
-                src: 'images/family(3).jpeg', 
-                thumb: 'images/family(3).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/family(3).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/family(3).jpeg', 
                 caption: 'Small family photo at the "Sail-a-wave Party"', 
                 tags: ['Family Photo', 'cruise'] 
             },
             { 
-                src: 'images/family(4).jpg', 
-                thumb: 'images/family(4).jpg', 
+                src: 'images/Disney Magic (March, 2025)/family(4).jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/family(4).jpg', 
                 caption: 'Small family photo', 
                 tags: ['cruise'] 
             },
             { 
-                src: 'images/family(5).jpg', 
-                thumb: 'images/family(5).jpg', 
+                src: 'images/Disney Magic (March, 2025)/family(5).jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/family(5).jpg', 
                 caption: 'Small family photo at the Walt Disney Theater', 
                 tags: ['cruise'] 
             },
             { 
-                src: 'images/family(6).jpeg', 
-                thumb: 'images/family(6).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/family(6).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/family(6).jpeg', 
                 caption: 'Small family photo at dinner (Tritons)', 
                 tags: ['Dinner', 'cruise'] 
             },
             { 
-                src: 'images/family(9).jpeg', 
-                thumb: 'images/family(9).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/family(9).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/family(9).jpeg', 
                 caption: 'Big family photo at dinner (Animators Palate)', 
                 tags: ['Dinner', 'cruise'] 
             },
             { 
-                src: 'images/family(7).jpeg', 
-                thumb: 'images/family(7).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/family(7).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/family(7).jpeg', 
                 caption: 'Small family photo at dinner (Animators Palate)', 
                 tags: ['Dinner', 'cruise'] 
             },
             { 
-                src: 'images/Family(13).jpg', 
-                thumb: 'images/Family(13).jpg', 
+                src: 'images/Disney Magic (March, 2025)/Family(13).jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/Family(13).jpg', 
                 caption: 'Big family photo on a mountain', 
                 tags: ['Family Photo', 'cruise'] 
             },
             { 
-                src: 'images/mexico(1).jpg', 
-                thumb: 'images/mexico(1).jpg', 
+                src: 'images/Disney Magic (March, 2025)/mexico(1).jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/mexico(1).jpg', 
                 caption: 'Big family photo on Catalina Island', 
                 tags: ['Family Photo', 'cruise'] 
             },
             { 
-                src: 'images/ship(4).jpg', 
-                thumb: 'images/ship(4).jpg', 
+                src: 'images/Disney Magic (March, 2025)/ship(4).jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/ship(4).jpg', 
                 caption: 'Big family photo with the Disney Wonder in the background', 
                 tags: ['Family Photo', 'cruise'] 
             },
             { 
-                src: 'images/staff.jpeg', 
-                thumb: 'images/staff.jpeg', 
+                src: 'images/Disney Magic (March, 2025)/staff.jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/staff.jpeg', 
                 caption: 'Big family at Animators Palate', 
                 tags: ['Staff', 'Dinner', 'Family Photo', 'cruise'] 
             },
-            // Horazontal Mexico 
             { 
-                src: 'images/mexico(3).jpg', 
-                thumb: 'images/mexico(3).jpg', 
+                src: 'images/Disney Magic (March, 2025)/mexico(3).jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/mexico(3).jpg', 
                 caption: 'Ensenada', 
                 tags: ['Mexico', 'cruise'] 
             },
-            // Horazontal Solo
             { 
-                src: 'images/family(8).jpg', 
-                thumb: 'images/family(8).jpg', 
+                src: 'images/Disney Magic (March, 2025)/family(8).jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/family(8).jpg', 
                 caption: 'Dramatic photo', 
                 tags: ['Solo', 'cruise'] 
             },
             { 
-                src: 'images/family(6).jpg', 
-                thumb: 'images/family(6).jpg', 
+                src: 'images/Disney Magic (March, 2025)/family(6).jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/family(6).jpg', 
                 caption: 'Dramatic photo', 
                 tags: ['Solo', 'cruise'] 
             },
             { 
-                src: 'images/family(7).jpg', 
-                thumb: 'images/family(7).jpg', 
+                src: 'images/Disney Magic (March, 2025)/family(7).jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/family(7).jpg', 
                 caption: 'Dramatic photo', 
                 tags: ['Solo', 'cruise'] 
             },
-            // Horazontal Ship
             { 
-                src: 'images/room.jpg', 
-                thumb: 'images/room.jpg', 
-                caption: 'Disney Wonder Room (March, 2024)', 
+                src: 'images/Disney Magic (March, 2025)/room.jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/room.jpg', 
+                caption: 'Disney Wonder Room (March 2024)', 
                 tags: ['Room', 'cruise'] 
             },
             { 
-                src: 'images/ship(2).jpg', 
-                thumb: 'images/ship(2).jpg', 
+                src: 'images/Disney Magic (March, 2025)/ship(2).jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/ship(2).jpg', 
                 caption: 'Disney Wonder', 
                 tags: ['Ship', 'cruise'] 
             },
             { 
-                src: 'images/ship(3).jpg', 
-                thumb: 'images/ship(3).jpg', 
+                src: 'images/Disney Magic (March, 2025)/ship(3).jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/ship(3).jpg', 
                 caption: 'Disney Wonder Walt Disney Theater', 
-                tags: ['Ship', 'cruise'] 
+                tags: ['Ship, cruise'] 
             },
-            // Horazontal Staff
             { 
-                src: 'images/staff(3).jpg', 
-                thumb: 'images/staff(3).jpg', 
+                src: 'images/Disney Magic (March, 2025)/staff(3).jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/staff(3).jpg', 
                 caption: 'Energy, Energy', 
                 tags: ['Staff', 'cruise'] 
             },
             { 
-                src: 'images/staff.jpg', 
-                thumb: 'images/staff.jpg', 
+                src: 'images/Disney Magic (March, 2025)/staff.jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/staff.jpg', 
                 caption: 'Concierge Lounge', 
                 tags: ['Staff', 'cruise'] 
             },
-            // Micky Mouse
             { 
-                src: 'images/char.jpg', 
-                thumb: 'images/char.jpg', 
+                src: 'images/Disney Magic (March, 2025)/char.jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/char.jpg', 
                 caption: 'Mickey Mouse on the stairs', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'cruise'] 
             },
-            // Minny Mouse
             { 
-                src: 'images/char(5).jpeg', 
-                thumb: 'images/char(5).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/char(5).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(5).jpeg', 
                 caption: 'Minnie Mouse small family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'cruise'] 
             },
             { 
-                src: 'images/char(5).jpg', 
-                thumb: 'images/char(5).jpg', 
-                caption: 'Minnie small family photo', 
-                tags: ['character', 'Mickey Mouse Clubhouse', 'cruise'] 
-            },
-            { 
-                src: 'images/char(6).jpeg', 
-                thumb: 'images/char(6).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/char(5).jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(5).jpg', 
                 caption: 'Minnie Mouse small family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'cruise'] 
             },
             { 
-                src: 'images/char(6).jpg', 
-                thumb: 'images/char(6).jpg', 
+                src: 'images/Disney Magic (March, 2025)/char(6).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(6).jpeg', 
                 caption: 'Minnie Mouse small family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'cruise'] 
             },
             { 
-                src: 'images/char(7).jpeg', 
-                thumb: 'images/char(7).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/char(6).jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(6).jpg', 
                 caption: 'Minnie Mouse small family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'cruise'] 
             },
             { 
-                src: 'images/char(29).jpeg', 
-                thumb: 'images/char(29).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/char(7).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(7).jpeg', 
                 caption: 'Minnie Mouse small family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'cruise'] 
             },
             { 
-                src: 'images/char(32).jpeg', 
-                thumb: 'images/char(32).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/char(29).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(29).jpeg', 
                 caption: 'Minnie Mouse small family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'cruise'] 
             },
-            // Goffy
             { 
-                src: 'images/char(1).jpeg', 
-                thumb: 'images/char(1).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/char(32).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(32).jpeg', 
+                caption: 'Minnie Mouse small family photo', 
+                tags: ['character', 'Mickey Mouse Clubhouse', 'cruise'] 
+            },
+            { 
+                src: 'images/Disney Magic (March, 2025)/char(1).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(1).jpeg', 
                 caption: 'Goofy small family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'cruise'] 
             },
             { 
-                src: 'images/char(27).jpeg', 
-                thumb: 'images/char(27).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/char(27).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(27).jpeg', 
                 caption: 'Goofy big family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'cruise'] 
             },
-            // Donold Duck
             { 
-                src: 'images/char(3).jpg', 
-                thumb: 'images/char(3).jpg', 
+                src: 'images/Disney Magic (March, 2025)/char(3).jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(3).jpg', 
                 caption: 'Donald Duck small family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'cruise'] 
             },
             { 
-                src: 'images/char(18).jpeg', 
-                thumb: 'images/char(18).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/char(18).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(18).jpeg', 
                 caption: 'Donald Duck small family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'cruise'] 
             },
-            // Daisy Duck
             { 
-                src: 'images/char(10).jpg', 
-                thumb: 'images/char(10).jpg', 
+                src: 'images/Disney Magic (March, 2025)/char(10).jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(10).jpg', 
                 caption: 'Daisy Duck small family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'cruise'] 
             },
             { 
-                src: 'images/char(11).jpg', 
-                thumb: 'images/char(11).jpg', 
+                src: 'images/Disney Magic (March, 2025)/char(11).jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(11).jpg', 
                 caption: 'Daisy Duck small family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'cruise'] 
             },
             { 
-                src: 'images/char(12).jpg', 
-                thumb: 'images/char(12).jpg', 
+                src: 'images/Disney Magic (March, 2025)/char(12).jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(12).jpg', 
                 caption: 'Daisy Duck small family photo', 
                 tags: ['character', 'Mickey Mouse Clubhouse', 'cruise'] 
             },
-            // Tiana
             { 
-                src: 'images/char(4).jpg', 
-                thumb: 'images/char(4).jpg', 
+                src: 'images/Disney Magic (March, 2025)/char(4).jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(4).jpg', 
                 caption: 'Tiana walking down the stairs', 
                 tags: ['character', 'Disney Princesses', 'cruise'] 
             },
-            // Cinderella
             { 
-                src: 'images/char(15).jpeg', 
-                thumb: 'images/char(15).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/char(15).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(15).jpeg', 
                 caption: 'Cinderella small family photo', 
                 tags: ['character', 'Disney Princesses', 'cruise'] 
             },
-            // Black Panther
             { 
-                src: 'images/char(12).jpeg', 
-                thumb: 'images/char(12).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/char(12).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(12).jpeg', 
                 caption: 'Black Panther small family photo', 
                 tags: ['character', 'Marvel Superheroes', 'cruise'] 
             },
-            // Spider-Man
             { 
-                src: 'images/char(22).jpeg', 
-                thumb: 'images/char(22).jpeg', 
-                caption: 'Spider Man small family photo', 
+                src: 'images/Disney Magic (March, 2025)/char(22).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(22).jpeg', 
+                caption: 'Spider-Man small family photo', 
                 tags: ['character', 'Marvel Superheroes', 'cruise'] 
             },
-            // Family
             { 
-                src: 'images/char(25).jpeg', 
-                thumb: 'images/char(25).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/char(25).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/char(25).jpeg', 
                 caption: 'Small family photo with a pirate backdrop', 
                 tags: ['Pirate Night', 'cruise'] 
             },
             { 
-                src: 'images/family(3).jpg', 
-                thumb: 'images/family(3).jpg', 
+                src: 'images/Disney Magic (March, 2025)/family(3).jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/family(3).jpg', 
                 caption: 'Small family photo', 
                 tags: ['cruise'] 
             },
             { 
-                src: 'images/family(8).jpeg', 
-                thumb: 'images/family(8).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/family(8).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/family(8).jpeg', 
                 caption: 'Small family photo at dinner (Animators Palate)', 
                 tags: ['Dinner', 'cruise'] 
             },
             { 
-                src: 'images/family(10).jpeg', 
-                thumb: 'images/family(10).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/family(10).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/family(10).jpeg', 
                 caption: 'Small family photo with a pirate backdrop', 
                 tags: ['Pirate Night', 'cruise'] 
             },
             { 
-                src: 'images/family(11).jpeg', 
-                thumb: 'images/family(11).jpeg', 
-                caption: 'Small family photo with a pirate backdrop',
-                tags: ['Pirate Night', 'cruise'] 
-            },
-            { 
-                src: 'images/family(12).jpeg', 
-                thumb: 'images/family(12).jpeg', 
+                src: 'images/Disney Magic (March, 2025)/family(11).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/family(11).jpeg', 
                 caption: 'Small family photo with a pirate backdrop', 
                 tags: ['Pirate Night', 'cruise'] 
             },
             { 
-                src: 'images/family(11).jpg', 
-                thumb: 'images/family(11).jpg', 
+                src: 'images/Disney Magic (March, 2025)/family(12).jpeg', 
+                thumb: 'images/Disney Magic (March, 2025)/family(12).jpeg', 
+                caption: 'Small family photo with a pirate backdrop', 
+                tags: ['Pirate Night', 'cruise'] 
+            },
+            { 
+                src: 'images/Disney Magic (March, 2025)/family(11).jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/family(11).jpg', 
                 caption: 'Small family photo on the ship', 
                 tags: ['cruise'] 
             },
-            // Mexico
             { 
-                src: 'images/mexico(4).jpg', 
-                thumb: 'images/mexico(4).jpg', 
+                src: 'images/Disney Magic (March, 2025)/mexico(4).jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/mexico(4).jpg', 
                 caption: 'Port of Ensenada', 
                 tags: ['Mexico', 'cruise'] 
             },
-            // Catalina
             { 
-                src: 'images/mexico(2).jpg', 
-                thumb: 'images/mexico(2).jpg', 
+                src: 'images/Disney Magic (March, 2025)/mexico(2).jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/mexico(2).jpg', 
                 caption: 'Catalina Island', 
                 tags: ['Catalina', 'cruise'] 
             },
-            // Travaling fun
             { 
-                src: 'images/family.jpg', 
-                thumb: 'images/family.jpg', 
+                src: 'images/Disney Magic (March, 2025)/family.jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/family.jpg', 
                 caption: 'Family walking to the car with our suitcases', 
                 tags: ['Travel Fun', 'cruise'] 
             },
-            // Food
             { 
-                src: 'images/food(1).jpg', 
-                thumb: 'images/food(1).jpg', 
+                src: 'images/Disney Magic (March, 2025)/food(1).jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/food(1).jpg', 
                 caption: 'An Olaf coffee', 
                 tags: ['Food', 'cruise'] 
             },
             { 
-                src: 'images/food(2).jpg', 
-                thumb: 'images/food(2).jpg', 
+                src: 'images/Disney Magic (March, 2025)/food(2).jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/food(2).jpg', 
                 caption: 'A Mickey coffee', 
                 tags: ['Food', 'cruise'] 
             },
             { 
-                src: 'images/food.jpg', 
-                thumb: 'images/food.jpg', 
+                src: 'images/Disney Magic (March, 2025)/food.jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/food.jpg', 
                 caption: 'An Elsa coffee', 
                 tags: ['Food', 'cruise'] 
             },
             { 
-                src: 'images/food(5).jpg', 
-                thumb: 'images/food(5).jpg', 
+                src: 'images/Disney Magic (March, 2025)/food(5).jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/food(5).jpg', 
                 caption: 'Chocolate sundae', 
                 tags: ['Food', 'cruise'] 
             },
-            // Ship
             { 
-                src: 'images/ship.jpg', 
-                thumb: 'images/ship.jpg', 
+                src: 'images/Disney Magic (March, 2025)/ship.jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/ship.jpg', 
                 caption: 'Disney Wonder Ariel statue', 
                 tags: ['Ship', 'cruise'] 
             },
             { 
-                src: 'images/ship(1).jpg', 
-                thumb: 'images/ship(1).jpg', 
+                src: 'images/Disney Magic (March, 2025)/ship(1).jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/ship(1).jpg', 
                 caption: 'Disney Wonder', 
                 tags: ['Ship', 'cruise'] 
             },
-            // Staff
             { 
-                src: 'images/staff(4).jpg', 
-                thumb: 'images/staff(4).jpg', 
+                src: 'images/Disney Magic (March, 2025)/staff(4).jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/staff(4).jpg', 
                 caption: 'Staff photo', 
                 tags: ['Staff', 'cruise'] 
             },
             { 
-                src: 'images/staff(5).jpg', 
-                thumb: 'images/staff(5).jpg', 
+                src: 'images/Disney Magic (March, 2025)/staff(5).jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/staff(5).jpg', 
                 caption: 'Camera man', 
                 tags: ['Staff', 'cruise'] 
             },
             { 
-                src: 'images/staff(6).jpg', 
-                thumb: 'images/staff(6).jpg', 
-                caption: 'Bad timing', 
+                src: 'images/Disney Magic (March, 2025)/staff(6).jpg', 
+                thumb: 'images/Disney Magic (March, 2025)/staff(6).jpg', 
+                caption: 'Pin Trading', 
                 tags: ['Staff', 'cruise'] 
             }
         ]
     }
 };
 
+// Set random hero image
+function setRandomHeroImage() {
+    const allPhotos = Object.values(albums).flatMap(album => album.photos);
+    const randomIndex = Math.floor(Math.random() * allPhotos.length);
+    const randomPhoto = allPhotos[randomIndex];
+    const heroImage = document.getElementById('hero-image');
+    heroImage.src = randomPhoto.src;
+    heroImage.alt = randomPhoto.caption;
+}
+
+// Call on page load
+setRandomHeroImage();
+
 // Keep track of selected tags, lightbox state, and current album
 let selectedTags = [];
 let currentPhotos = [];
 let currentIndex = 0;
 let currentAlbumId = null;
+
+// Download modal handling
+const downloadModal = document.getElementById('download-modal');
+const modalClose = downloadModal.querySelector('.modal-close');
+const formatButtons = downloadModal.querySelectorAll('.format-button');
+const lightboxDownloadButton = document.getElementById('lightbox-download-button');
+const albumDownloadButton = document.getElementById('download-album-button');
+
+lightboxDownloadButton.addEventListener('click', () => {
+    downloadModal.style.display = 'block';
+});
+
+modalClose.addEventListener('click', () => {
+    downloadModal.style.display = 'none';
+});
+
+downloadModal.addEventListener('click', (e) => {
+    if (e.target === downloadModal) {
+        downloadModal.style.display = 'none';
+    }
+});
+
+formatButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        const format = button.dataset.format;
+        handleLightboxDownload(format);
+        downloadModal.style.display = 'none';
+    });
+});
+
+albumDownloadButton.addEventListener('click', () => {
+    if (!currentAlbumId) {
+        alert('No album selected.');
+        return;
+    }
+    handleAlbumDownload();
+});
+
+async function handleLightboxDownload(format) {
+    const photo = currentPhotos[currentIndex];
+    if (!photo) {
+        alert('No image selected.');
+        return;
+    }
+
+    if (format === 'jpeg') {
+        const link = document.createElement('a');
+        link.href = photo.src;
+        link.download = photo.src.split('/').pop();
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    } else if (format === 'pdf') {
+        const { jsPDF } = window.jspdf;
+        const doc = new jsPDF();
+        const pageWidth = doc.internal.pageSize.width;
+
+        try {
+            const img = new Image();
+            img.crossOrigin = 'anonymous';
+            img.src = photo.src;
+            await new Promise((resolve, reject) => {
+                img.onload = resolve;
+                img.onerror = reject;
+            });
+
+            const imgProps = doc.getImageProperties(img);
+            const imgWidth = 180;
+            const imgHeight = (imgProps.height * imgWidth) / imgProps.width;
+
+            doc.setFontSize(16);
+            doc.text(photo.caption, pageWidth / 2, 10, { align: 'center' });
+            doc.addImage(img, 'JPEG', (pageWidth - imgWidth) / 2, 20, imgWidth, imgHeight);
+            doc.save(`${photo.caption || 'image'}.pdf`);
+        } catch (e) {
+            console.error('Error loading image:', photo.src, e);
+            alert('Failed to generate PDF. Please try again.');
+        }
+    }
+}
+
+function handleAlbumDownload() {
+    let photos = albums[currentAlbumId].photos;
+    if (selectedTags.length > 0) {
+        photos = photos.filter(photo => 
+            selectedTags.every(tag => photo.tags && photo.tags.includes(tag))
+        );
+    }
+
+    if (photos.length === 0) {
+        alert('No photos available for download.');
+        return;
+    }
+
+    // Placeholder for ZIP download
+    alert('ZIP download is not implemented in this demo. In a production environment, this would trigger a server-side ZIP file generation.');
+    // Example: window.location.href = '/api/download/zip?album=' + encodeURIComponent(currentAlbumId);
+}
 
 // Page navigation
 const navLinks = document.querySelectorAll('.nav-link');
@@ -755,7 +835,7 @@ function openLightbox(index) {
 
 function closeLightbox() {
     lightbox.style.display = 'none';
-    document.body.style.overflow = 'auto';
+    document.body.style.overflow = '';
     console.log('Lightbox closed');
 }
 

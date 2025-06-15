@@ -3,24 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore the Irvine family's vacation photo gallery from unforgettable adventures.">
-    <meta name="keywords" content="family vacation, photo gallery, Irvine family">
-    <title>Photo Gallery</title>
+    <title>Irvine Family Vacation Photo Gallery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 </head>
 <body>
-    <!-- Navigation -->
     <nav>
-        <ul>
-            <li><a href="#home" class="nav-link" aria-current="page">Home</a></li>
-            <li><a href="#albums" class="nav-link">Albums</a></li>
-            <li><a href="#about" class="nav-link">About</a></li>
-        </ul>
+        <div class="container">
+            <ul>
+                <li><a href="#home" class="nav-link" aria-current="page">Home</a></li>
+                <li><a href="#albums" class="nav-link">Albums</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+            </ul>
+        </div>
     </nav>
 
-    <!-- Home Page -->
     <section id="home" class="page active">
         <div class="hero">
+            <img id="hero-image" src="" alt="Random Vacation Photo" class="hero-image">
             <div class="hero-content">
                 <h1>Our Vacation Adventures</h1>
                 <p>Capturing moments from our unforgettable vacations.</p>
@@ -28,61 +29,71 @@
         </div>
         <div class="container">
             <h2>Albums</h2>
-            <div class="albums-grid" id="home-albums-grid"></div>
+            <div id="home-albums-grid" class="albums-grid"></div>
         </div>
     </section>
 
-    <!-- Albums Page -->
     <section id="albums" class="page">
         <div class="container">
             <h2>All Albums</h2>
-            <div class="albums-grid" id="albums-page-grid"></div>
+            <div id="albums-page-grid" class="albums-grid"></div>
         </div>
     </section>
 
-    <!-- Album Gallery (Hidden by Default) -->
     <section id="gallery" class="page">
-        <div class="container">
-            <div class="center-wrapper">
-                <h2 id="gallery-title"></h2>
-                <div id="album-info" class="album-info"></div>
-            </div>
-            <div class="filter-container">
-                <h3>Filter by Tags</h3>
-                <div id="tag-filters"></div>
-                <button id="clear-filters">Clear Filters</button>
-            </div>
-        </div>
         <div class="full-width-container">
-            <div class="gallery" id="photo-gallery"></div>
+            <div class="center-wrapper">
+                <div class="gallery-header">
+                    <h2 id="gallery-title"></h2>
+                    <button id="download-album-button" class="download-button">Download Album (ZIP)</button>
+                </div>
+                <div id="album-info" class="album-info"></div>
+                <div class="filter-container">
+                    <h3>Filter by Tags</h3>
+                    <div id="tag-filters"></div>
+                    <button id="clear-filters">Clear Filters</button>
+                </div>
+                <div id="photo-gallery" class="gallery"></div>
+            </div>
         </div>
     </section>
 
-    <!-- About Page -->
     <section id="about" class="page">
-        <div class="container about">
-            <h2>About Our Family</h2>
-            <p>We are the Irvine family, passionate about exploring the world and capturing our adventures. From magical cruises to scenic getaways, our photo gallery showcases the joy and memories we’ve created together.</p>
+        <div class="container">
+            <div class="about">
+                <h2>About Our Family</h2>
+                <p>We are the Irvine family, passionate about exploring the world and capturing our adventures. From magical cruises to scenic getaways, our photo gallery showcases the joy and memories we’ve created together.</p>
+            </div>
         </div>
     </section>
 
-    <!-- Custom Lightbox -->
-    <div id="custom-lightbox" class="lightbox" style="display: none;">
+    <div id="custom-lightbox" class="lightbox">
         <div class="lightbox-content">
-            <img id="lightbox-image" src="" alt="Lightbox image">
-            <button class="lightbox-close">X</button>
-            <button class="lightbox-prev">❮</button>
-            <button class="lightbox-next">❯</button>
+            <img id="lightbox-image" src="" alt="">
             <div class="lightbox-caption"></div>
+        </div>
+        <button class="lightbox-close">X</button>
+        <button class="lightbox-prev">❮</button>
+        <button class="lightbox-next">❯</button>
+        <button id="lightbox-download-button" class="lightbox-download-button">Download</button>
+    </div>
+
+    <div id="download-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">×</span>
+            <h2>Download Image</h2>
+            <p>Select a file format:</p>
+            <button class="format-button" data-format="jpeg">JPEG</button>
+            <button class="format-button" data-format="pdf">PDF</button>
         </div>
     </div>
 
-    <!-- Footer -->
     <footer>
-        <p>© <span id="year"></span> Irvine Family Vacation Photo Gallery</p>
+        <div class="container">
+            <p>© <span id="year"></span> Irvine Family Vacation Photo Gallery</p>
+        </div>
     </footer>
 
-    <!-- Link to external JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
